@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sskboled"
+version = "0.1.0"
+description = "Displays things on Steelseries Keyboard Oled"
+authors = ["Michal Szymura <michals91@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Pillow = "^9.1.1"
+easyhid = "^0.0.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
